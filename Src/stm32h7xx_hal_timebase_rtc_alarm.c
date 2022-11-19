@@ -23,27 +23,27 @@
   *
   ******************************************************************************
   */
- @verbatim
-  ==============================================================================
-                        ##### How to use this driver #####
-  ==============================================================================
-    [..]
-    This file must be copied to the application folder and modified as follows:
-    (#) Rename it to 'stm32h7xx_hal_timebase_rtc_alarm.c'
-    (#) Add this file and the RTC HAL drivers to your project and uncomment
-       HAL_RTC_MODULE_ENABLED define in stm32h7xx_hal_conf.h
-
-    [..]
-    (@) HAL RTC alarm and HAL RTC wakeup drivers can not be used with low power modes:
-        The wake up capability of the RTC may be intrusive in case of prior low power mode
-        configuration requiring different wake up sources.
-        Application/Example behavior is no more guaranteed
-    (@) The stm32h7xx_hal_timebase_tim use is recommended for the Applications/Examples
-          requiring low power modes
-
-  @endverbatim
-  ******************************************************************************
-  */
+// @verbatim
+//  ==============================================================================
+//                        ##### How to use this driver #####
+//  ==============================================================================
+//    [..]
+//    This file must be copied to the application folder and modified as follows:
+//    (#) Rename it to 'stm32h7xx_hal_timebase_rtc_alarm.c'
+//    (#) Add this file and the RTC HAL drivers to your project and uncomment
+//       HAL_RTC_MODULE_ENABLED define in stm32h7xx_hal_conf.h
+//
+//    [..]
+//    (@) HAL RTC alarm and HAL RTC wakeup drivers can not be used with low power modes:
+//        The wake up capability of the RTC may be intrusive in case of prior low power mode
+//        configuration requiring different wake up sources.
+//        Application/Example behavior is no more guaranteed
+//    (@) The stm32h7xx_hal_timebase_tim use is recommended for the Applications/Examples
+//          requiring low power modes
+//
+//  @endverbatim
+//  ******************************************************************************
+//  */
 
 /* Includes ------------------------------------------------------------------*/
 #include "stm32h7xx_hal.h"
